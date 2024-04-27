@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidores Web</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Servidores Web</h1>
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Servidores web</a></li>
+                <li><a href="/contenedoresWeb.html">Contenedores web</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="SeccionUno">
+        <h2>Que es un servidor Web?</h2>
+        <p>Un servidor web es un programa que utiliza el protocolo HTTP
+            para servir archivos que forman páginas web
+            a los usuarios, en respuesta a sus solicitudes,
+            que son reenviadas por sus aplicaciones clientes.</p>
+
+        <h2>Para que sirve un servidor Web?</h2>
+        <p>Un servidor web sirve para almacenar,
+            procesar y distribuir contenido web,
+            permitiendo que los usuarios accedan
+            a sitios web y servicios en línea.</p>
+
+        <h2>Usos de un servidor Web</h2>
+        <p>Los servidores web se utilizan para alojar
+            sitios web, aplicaciones web, servicios en
+            línea, almacenamiento de archivos, correo
+            electrónico, y mucho más.</p>
+
+        <h2>Ejemplo de Servidor Web</h2>
+        <p>Un ejemplo de servidor web popular es
+            Apache HTTP Server, el cual es de código
+            abierto y ampliamente utilizado en la
+            industria.</p>
+        </div>
+        <div class="container">
+            <h1>Guía de uso de Apache HTTP Server</h1>
+
+            <section>
+                <h2>1. Acceder a la documentación oficial:</h2>
+                <p>Apache tiene una excelente documentación que cubre todos los aspectos de su configuración y uso.
+                    Puedes encontrarla en el sitio web oficial de Apache:
+                    <a href="https://httpd.apache.org/docs/">Apache HTTP Server Documentation</a>.
+                </p>
+            </section>
+
+            <section>
+                <h2>2. Comandos básicos de Apache:</h2>
+                <ul>
+                    <li><strong>Iniciar Apache:</strong></li>
+                    <pre><code>sudo systemctl start apache2</code></pre>
+                    <li><strong>Detener Apache:</strong></li>
+                    <pre><code>sudo systemctl stop apache2</code></pre>
+                    <li><strong>Reiniciar Apache:</strong></li>
+                    <pre><code>sudo systemctl restart apache2</code></pre>
+                    <li><strong>Verificar el estado de Apache:</strong></li>
+                    <pre><code>sudo systemctl status apache2</code></pre>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Estructura de directorios importante:</h2>
+                <ul>
+                    <li><strong>Directorio de configuración principal:</strong> <code>/etc/apache2/</code></li>
+                    <li><strong>Directorio de archivos de configuración de sitios habilitados:</strong>
+                        <code>/etc/apache2/sites-available/</code> y <code>/etc/apache2/sites-enabled/</code>
+                    </li>
+                    <li><strong>Directorio de archivos de configuración de módulos:</strong>
+                        <code>/etc/apache2/mods-available/</code> y <code>/etc/apache2/mods-enabled/</code>
+                    </li>
+                    <li><strong>Directorio raíz de los documentos web:</strong> <code>/var/www/html/</code></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Configuración de sitios virtuales (Virtual Hosts):</h2>
+                <p>Apache permite alojar múltiples sitios web en un solo servidor utilizando la configuración de sitios
+                    virtuales. Puedes encontrar ejemplos de configuración en <code>/etc/apache2/sites-available/</code>.
+                </p>
+            </section>
+
+            <section>
+                <h2>5. Logs de Apache:</h2>
+                <p>Apache registra información sobre su funcionamiento en archivos de registro. Puedes encontrarlos en
+                    <code>/var/log/apache2/</code>.
+                </p>
+            </section>
+
+            <section>
+                <h2>6. Configuración de módulos:</h2>
+                <p>Apache es modular y puedes habilitar/deshabilitar módulos según tus necesidades. Los archivos de
+                    configuración de los módulos se encuentran en <code>/etc/apache2/mods-available/</code>.</p>
+            </section>
+
+            <section>
+                <h2>7. Pruebas de configuración:</h2>
+                <p>Antes de implementar cambios importantes en la configuración de Apache, es recomendable utilizar la
+                    herramienta de diagnóstico integrada <code>apachectl configtest</code> para verificar la sintaxis de
+                    los archivos de configuración.</p>
+            </section>
+
+            <section>
+                <h2>8. Seguridad:</h2>
+                <p>Asegúrate de mantener actualizado Apache y de aplicar las mejores prácticas de seguridad. Esto
+                    incluye la configuración adecuada de permisos de archivos y directorios, así como la implementación
+                    de medidas de seguridad adicionales según sea necesario.</p>
+            </section>
+
+            <section>
+                <h2>9. Comunidad y recursos:</h2>
+                <p>Siempre puedes recurrir a la comunidad de Apache y a recursos en línea para obtener ayuda adicional y
+                    resolver problemas específicos. Sitios como Stack Overflow, el foro de Apache y otros sitios de
+                    ayuda para desarrolladores pueden ser útiles.</p>
+            </section>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <h4> * Derechos Reservados</h4>
+        <h4>
+            <li><a href="https://www.linkedin.com/in/omar-sani-b9733a2b9/">Pagina creada por Omar_Sani_S.A Developer
+                    Linkeding</a></li>
+        </h4>
+    </footer>
+</body>
+
+</html>
