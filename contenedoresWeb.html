@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contenedores Web</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Servidores web</a></li>
+                <li><a href="/contenedoresWeb.html">Contenedores web</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="SeccionUno">
+        <h2>Qué es un contenedor Web?</h2>
+        <p>Un contenedor web es una tecnología de virtualización que permite empaquetar y distribuir aplicaciones junto con todas sus dependencias y configuraciones, de manera que puedan ejecutarse de forma consistente en cualquier entorno.</p>
+        <h2>Para qué sirve un contenedor Web?</h2>
+        <p>Un contenedor web sirve para proporcionar una forma liviana y portátil de ejecutar aplicaciones, lo que facilita el despliegue y la escalabilidad en entornos de desarrollo, pruebas y producción.</p>
+        <h2>Usos de un contenedor web</h2>
+        <p>Los contenedores web se utilizan para desarrollar, probar, implementar y ejecutar aplicaciones de manera rápida y confiable, así como para automatizar el proceso de implementación y administración de infraestructuras.</p>
+        <h2>Ejemplo de contenedor Web</h2>
+        <p>Un ejemplo popular de contenedor web es Docker, una plataforma de código abierto que permite empaquetar, distribuir y ejecutar aplicaciones en contenedores.</p>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>1. Instalación de Docker</h2>
+            <p>
+                <strong>Windows:</strong> Descarga el instalador de Docker Desktop para Windows desde el sitio web oficial y sigue las instrucciones de instalación.
+            </p>
+            <p>
+                <strong>macOS:</strong> Descarga el instalador de Docker Desktop para Mac desde el sitio web oficial y sigue las instrucciones de instalación.
+            </p>
+            <p>
+                <strong>Linux:</strong> Consulta la documentación oficial de Docker para obtener instrucciones de instalación específicas para tu distribución.
+            </p>
+        </section>
+        <section>
+            <h2>2. Verificar la instalación</h2>
+            <p>Una vez instalado Docker, verifica que esté funcionando correctamente ejecutando el siguiente comando en la terminal:</p>
+            <code>docker --version</code>
+        </section>
+        <section>
+            <h2>3. Conceptos básicos de Docker</h2>
+            <p>
+                <strong>Imágenes:</strong> Las imágenes de Docker son plantillas de solo lectura que contienen el sistema operativo, las bibliotecas y las dependencias necesarias para ejecutar una aplicación.
+            </p>
+            <p>
+                <strong>Contenedores:</strong> Los contenedores son instancias en tiempo de ejecución de una imagen de Docker. Son entornos aislados que ejecutan aplicaciones y comparten los recursos del sistema host.
+            </p>
+            <p>
+                <strong>Dockerfile:</strong> Un Dockerfile es un archivo de texto que contiene instrucciones para construir una imagen de Docker. Define el entorno de ejecución y las dependencias de una aplicación.
+            </p>
+        </section>
+        <section>
+            <h2>4. Uso básico de Docker</h2>
+            <p>
+                <strong>Ejecutar un contenedor:</strong> Para ejecutar un contenedor a partir de una imagen, utiliza el comando <code>docker run</code>.
+            </p>
+            <p>
+                <strong>Listar imágenes:</strong> Para listar las imágenes de Docker instaladas en tu sistema, utiliza el comando <code>docker images</code>.
+            </p>
+            <p>
+                <strong>Listar contenedores:</strong> Para listar los contenedores en ejecución, utiliza el comando <code>docker ps</code>.
+            </p>
+        </section>
+        <section>
+            <h2>5. Crear y construir imágenes personalizadas</h2>
+            <p>
+                <strong>Crear un Dockerfile:</strong> Crea un archivo llamado <code>Dockerfile</code> en el directorio de tu aplicación y define las instrucciones para construir la imagen.
+            </p>
+            <p>
+                <strong>Construir una imagen:</strong> En el directorio que contiene el Dockerfile, ejecuta el siguiente comando para construir la imagen:
+            </p>
+            <code>docker build -t nombre-de-la-imagen .</code>
+            <p>
+                <strong>Ejecutar un contenedor desde la imagen personalizada:</strong> Utiliza el comando <code>docker run</code> con la opción <code>-d</code> para ejecutar el contenedor en segundo plano.
+            </p>
+        </section>
+        <section>
+            <h2>6. Documentación y recursos adicionales</h2>
+            <p>Para obtener más información sobre Docker y aprender más sobre su uso, consulta la <a href="https://docs.docker.com/">documentación oficial de Docker</a>.</p>
+        </section>
+        <section>
+            <h2>7. Comunidad y soporte</h2>
+            <p>
+                Docker cuenta con una gran comunidad de usuarios activos y una variedad de recursos en línea, incluidos foros, blogs y grupos de discusión. No dudes en buscar ayuda en la comunidad si encuentras algún problema o tienes alguna pregunta.
+            </p>
+        </section>
+
+    </div>
+    </main>
+    <footer>
+        <h4> * Derechos Reservados</h4>
+        <h4> <li><a href="https://www.linkedin.com/in/omar-sani-b9733a2b9/">Pagina creada por Omar_Sani_S.A Developer Linkeding</a></li></h4>
+      </footer>
+</body>
+</html>
